@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav{
+	display: grid;
+	grid-template-columns: 50% 50% ;
+	background-color: yellow;
+	margin :0px 0px 0px 0px;
+}
+
+div#LeftSide{
+	display: flex;
+	flex-direction: column;
+}
+
+div#buttons{
+	display: grid;
+	grid-template-columns: repeat(6,16.667%);
+	align-content:  center;
+	justify-content: space-around;
+}
+
+div#heading p{
+	font-size: xx-large;
+	margin: 20px 0px 10px 20px;
+}
+
+div#buttons button{
+	margin: 0px 8px 20px 8px;
+	font-size: 18px;
+	background-color:green;
+	color:white;
+	border-radius: 10px;
+}
+
+.yo{
+	cursor:pointer;
+}
+
+.change{
+	background-color:blue;
+}
+
+div#RightSide{
+	font-size: 30px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	align-content:  center;
+	column-gap: 80px;
+	grid-row-gap: 15px;
+	padding : 0px 200px 0px 0px;
+	margin : 0px 0px 0px 90px;
+}
+
+section{
+	display:grid;
+	grid-template-columns: 10% 80% 10%;
+}
+
+div#plot{
+	height: 70vh;
+	width:100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.plotclass{
+	background color: blue;
+	margin: 0% 0.1%;
+}
+
+#generate{
+	margin-bottom: 10px;
+	cursor:pointer;
+}
+
+.blank{
+	padding:20px;
+}
